@@ -1,0 +1,41 @@
+body {
+	background-color: #1180AB;
+}
+
+.board {
+	height: 600px;
+	width: 600px;
+	display: grid;
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: auto;
+  	margin-bottom: auto;
+  	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	justify-content: space-around;
+	align-items: flex-start;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	background-color: #992e58;
+	margin: 0;
+	border: 1px solid #A7C6DA;
+	float: inline-start;
+	font-size: 200px;
+	justify-content: center;
+	text-align: center;
+	margin: 0;
+	vertical-align: middle;
+	line-height: 200px;
+}
+
+.square:hover{
+	background-color: #84C7D0;
+}
